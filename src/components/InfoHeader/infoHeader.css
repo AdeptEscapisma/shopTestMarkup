@@ -1,0 +1,58 @@
+@media (max-width: 767px) {
+    .info-name span {
+        height: 27px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .info-name img {
+        margin-top: 5px;
+    }
+
+    .info-price {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .info-name span {
+        height: 35px;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .info-name img {
+        margin-top: 11px;
+    }
+
+    .info-price {
+        font-size: 18px;
+    }
+}
+
+.info-header {
+    width: 100%;
+}
+
+.info-name {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-name span {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+.info-name img {
+    width: 16.5px;
+    height: 10.5px;
+    margin-right: 14.5px;
+}
+
+.info-price {
+    height: 32px;
+    font-family: FuturaPT;
+    font-weight: 400;
+}

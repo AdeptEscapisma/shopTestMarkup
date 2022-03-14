@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'FuturaPT';
+  src: url('./static/fonts/FuturaPT-regular.ttf');
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  font-weight: 500;
+  src: url('./static/fonts/FuturaPT-medium.ttf');
+}
+
+@font-face {
+  font-family: 'FuturaPT';
+  font-weight: 700;
+  src: url('./static/fonts/FuturaPT-bold.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('./static/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: Inter;
+  font-weight: bold;
+  src: url('./static/fonts/Inter-Bold.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}

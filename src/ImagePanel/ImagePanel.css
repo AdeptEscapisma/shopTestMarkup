@@ -1,0 +1,34 @@
+.image-panel {
+    display: flex;
+}
+
+.sidebar {
+    width: 205px;
+    margin-top: 105px;
+}
+
+.sidebar .breadcrumbs-wrapper {
+    margin-bottom: 63px;
+}
+
+.gallery-wrapper .breadcrumbs {
+    margin-top: 6px;
+    margin-bottom: 62px;
+}
+
+@media (max-width: 1439px) {
+    .image-panel {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .gallery-wrapper {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .gallery-wrapper {
+        width: 396px;
+    }
+}

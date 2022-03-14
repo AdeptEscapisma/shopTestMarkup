@@ -1,0 +1,131 @@
+.info-panel {
+    display: flex;
+    flex-direction: column;
+}
+
+.sizes {
+    display: flex;
+}
+
+.sizes-controls {
+    display: flex;
+}
+
+.sizes-controls .flat-button {
+    margin-left: 25px;
+}
+
+.sizes-available {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sizes-hint {
+    height: 32px;
+
+    font-family: FuturaPT;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.description {
+    font-family: FuturaPT;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+@media (max-width: 767px) {
+    .sizes {
+        margin-top: 9px;
+        flex-direction: column-reverse;
+    }
+
+    .sizes-available {
+        align-items: flex-start;
+    }
+
+    .sizes-hint {
+        margin-top: 4px;
+        margin-bottom: 23px;
+    }
+
+    .sizes-controls {
+        margin-bottom: 32px;
+    }
+
+    .description {
+        margin-top: 33px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .sizes {
+        margin-top: 22px;
+        flex-direction: column;
+    }
+
+    .sizes-available {
+        align-items: flex-end;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1439px) {
+    .sizes-controls {
+        margin-bottom: 35px;
+    }
+    
+    .sizes-available {
+        margin-bottom: 35px;
+        padding-right: 1px;
+    }
+
+    .sizes-hint {
+        width: 175px;
+    }
+
+    .description {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 1439px) {
+    .info-panel {
+        margin: 0;
+        width: 100%;
+    }
+
+    .sizes-controls {
+        flex-direction: column;
+    }
+
+    .dropdown-wrapper {
+        margin-bottom: 6px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .info-panel {
+        margin-left: 126px;
+        margin-top: 99px;
+    }
+
+    .sizes-controls {
+        margin-bottom: 33px;
+    }
+
+    .sizes-available {
+        margin-bottom: 44px;
+        width: 451px;
+    }
+
+    .sizes-hint {
+        width: 219px;
+    }
+
+    .description {
+        width: 453px;
+    }
+}
